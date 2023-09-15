@@ -38,6 +38,7 @@ ul{
     display: flex;
     flex-flow: row wrap;
     align-content: center;
+    justify-content: center;
 }
 .f-center{
     justify-content: center;
@@ -45,26 +46,38 @@ ul{
 .sp-between{
     justify-content: space-between;
 }
+.just-start{
+    justify-content: flex-start;
+    width: 50%;
+}
+.just-end{
+    justify-content: flex-end;
+    width: 50%;
+}
 .column{
     flex-direction: column;
 }
 /* header */
 header{
     height: 100px;
+    width: 100vw;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
 }
 .hd-left{
-    height: 50%;
-    width: 25%;
+    min-width: 200px;
     justify-content: space-between;
     margin-left: 10px;
     align-items: center;
+    padding: 5px 0;
 }
 .hd-right{
-    height: 50%;
+    min-width: 200px;
     justify-content: space-between;
     margin-left: 10px;
     align-items: center;
+    padding: 5px 0;
 }
 .logo-img{
     max-width: 100%;
