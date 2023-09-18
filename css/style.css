@@ -17,6 +17,7 @@
 	--color-bg-red-brand: #d5001f;
 	--color-bg-dark-blue-brand: #0d2481;
 	--color-bg-yellow-brand: #ffd830;
+    scrollbar-width:none;
 }
 .debug{
     border: 1px solid rgb(211, 38, 38);
@@ -48,6 +49,9 @@ section{
 }
 .align-start{
     align-content: flex-start;
+}
+.align-center{
+    align-content: center;
 }
 .f-center{
     justify-content: center;
@@ -319,4 +323,69 @@ h4{
 }
 .margin-top-20{
     margin-top: 20px;
+}
+/* per non considerare la scrollbar? */
+.divisor-3{
+    width: calc((100vw - (100vw - 100%))/3);
+    height: calc(100vw / 3);
+} 
+.mini-brand{
+    width: 50%;
+    height: 50%;
+}
+.border-green{
+    border: 10px solid var(--color-border-light-green);
+}
+.mini-brand > img{
+    width: 50%;
+}
+.bg-green{
+    background-color: var(--color-bg-green-brand);
+}
+.bg-garnet{
+    background-color: var(--color-bg-garnet-brand);
+}
+.bg-blue{
+    background-color: var(--color-bg-light-blue-brand);
+}
+.bg-light-red{
+    background-color: var(--color-bg-light-red-brand);
+}
+.bg-red{
+    background-color:var(--color-bg-red-brand);
+}
+.bg-light-blue{
+    background-color: var(--color-bg-light-blue);
+}
+.bg-dark-blue{
+    background-color: var(--color-bg-dark-blue-brand);
+}
+.bg-yellow{
+    background-color: var(--color-bg-yellow-brand);
+}
+.bg-grey-brand{
+    background-color: var(--color-bg-grey-zoom-brand);
+}
+.padding-brand{
+    padding: 30px 40px 30px 40px;
+}
+.padding-brand > img{
+    width: 50%;
+}
+.hr-brand{
+    margin: 50px 0 50px 0;
+}
+.padding-brand > p{
+    margin-bottom: 50px;
+}
+.color-garnet{
+    color: var(--color-bg-garnet-brand);
+}
+.btn-white{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.bg-light-blue > .main-content{
+    margin-bottom: 100px;
 }
