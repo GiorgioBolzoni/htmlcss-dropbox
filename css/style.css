@@ -54,7 +54,9 @@ section{
 .with-70{
     width: 70%;
 }
-
+.border{
+    border: 1px solid #666;
+}
 /* flexbox */
 .d-flex{
     display: flex;
@@ -89,7 +91,14 @@ section{
 .wrap{
     flex-wrap: wrap;
 }
-
+.btn-white:hover{
+    background-color: #000000;
+    color: white;
+}
+.btn-white:hover{
+    background-color: #000000;
+    color: white;
+}
 /* header */
 header{
     width: 100%;
@@ -131,6 +140,9 @@ header{
 .hd-li{
     color: black;
     height: 100%;
+}
+.hd-li:hover{
+    text-decoration:underline;
 }
 .bg-hover-hd:hover{
     background-color: #0d2481;
