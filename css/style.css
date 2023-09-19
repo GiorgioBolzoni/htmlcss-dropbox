@@ -440,6 +440,13 @@ summary{
 .size-20{
     width: 20%;
 }
+.answer{
+    background-color: #F2EEE8;
+    display: none;
+}
+.question:hover .answer{
+    display: block;
+}
 /* footer */
 footer{
     background-color: var(--color-secondary);
