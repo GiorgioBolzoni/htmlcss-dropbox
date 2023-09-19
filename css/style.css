@@ -44,6 +44,17 @@ section{
 .division-3{
     width: calc(100% / 3);
 }
+.button-blue:hover{
+    border: 2px solid var(--color-bg-blue);
+    background-color: var(--color-bg-dark-blue-brand);
+}
+.fa-arrow-down{
+    margin-top: 50px;
+}
+.with-70{
+    width: 70%;
+}
+
 /* flexbox */
 .d-flex{
     display: flex;
@@ -78,50 +89,54 @@ section{
 .wrap{
     flex-wrap: wrap;
 }
-.fa-arrow-down{
-    margin-top: 50px;
-}
-.with-70{
-    width: 70%;
-}
+
 /* header */
 header{
-    height: 80px;
     width: 100%;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
     background-color: var(--color-primary);
     box-shadow: 1px 0 5px black;
+    padding: 0 20px 0 20px;
 }
-#sx-head{
+#navbar{
+    margin: 0;
+}
+.width-50 > .padding-head{
+    padding: 20px 0 20px 0;
     margin-top: 0;
 }
 .hd-left{
     min-width: 200px;
     justify-content: space-between;
     margin-left: 10px;
-    align-items: center;
-    padding: 5px 0;
 }
 .hd-right{
     min-width: 200px;
     justify-content: space-between;
     margin-left: 10px;
-    align-items: center;
-    padding: 5px 0;
 }
 .logo-img{
     max-width: 100%;
-    margin-right: 15px;
+    margin-right: 25px;
+}
+.list-hd{
+    height: 100%;
 }
 .list-hd, li{
     margin-right: 20px;
 }
 .hd-li{
     color: black;
+    height: 100%;
+}
+.bg-hover-hd:hover{
+    background-color: #0d2481;
+}
+.padding-li{
+    padding: 50px0 50px 0;
 }
 .button-blue{
     background-color: var(--color-bg-blue);
@@ -134,7 +149,7 @@ header{
 /* hero */
 .hero{
     background-color: var(--color-bg-light-blue);
-    margin-top: 80px;
+    margin-top: 65px;
     height: 800px;
 }
 #hero-box{
