@@ -42,35 +42,36 @@
         </div>
     </header>
     <!-- hero -->
-    <div class="hero"> <!--mettere bg e dimensioni-->
+    <section class="hero debug"> <!--mettere bg e dimensioni-->
         
-        <div class="hero-box container debug d-flex just-start">
-            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+        <div class="container debug d-flex just-start" id="hero-box">
+            <h1 class="debug">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <!-- <div class="box-hero-main debug"> -->
-                <div class="text-hero debug d-flex just-start">
-                    <div>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</div>
-                    <div class=" debug" debug>
-                        <a href="#" class="button-blue no-decoration">Inizia la tua prova gratuita</a>
+                <div class="debug width-100 d-flex" id="hero-box-main">
+                    <div class="debug" id="text-hero">
+                        <div class="debug">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</div>
+                        <div class="debug" id="btn-hero">
+                            <a href="#piani" class="button-blue no-decoration debug">Inizia la tua prova gratuita</a>
+                        </div>
+                        <div class="debug">
+                            Annulla in qualsiasi momento
+                        </div>
+                        <div class="debug d-flex just-start width-50">
+                            <a href="#piani" class="arrow no-decoration">
+                                <i class="fa-solid fa-arrow-down fa-2xl" style="color: #000000;"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div>
-                        Annulla in qualsiasi momento
-                    </div>
-                    <div class="debug d-flex just-start width-50">
-                        <a href="piani" class="arrow no-decoration">
-                            <i class="fa-solid fa-arrow-down fa-2xl" style="color: #000000;"></i>
-                        </a>
+                    
+                    <div class="debug img-hero-container">
+                        <img src="img/jumbo.png" alt="img-hero">
                     </div>
                 </div>
-                <div class="img-hero-container debug d-flex just-start">
-                    <img src="img/jumbo.png" alt="img-hero" class="d-flex img-hero debug">
-                </div>
-            <!-- </div>
-         </div> --> 
-    </div>
+        </section>
     <!-- main -->
     <main class="debug">
         <section class="debug main-content">
-            <h2>Trova il piano business che fa per te</h2>
+            <h2 id="piani">Trova il piano business che fa per te</h2>
             <div class="business-button debug">   
                 <input type="radio" name="business" id="mensile" checked>
                 <label for="mensile">Fatturazione mensile</label>
@@ -109,11 +110,11 @@
                                 <i class="fa-solid fa-share-nodes"></i>
                                 </div>
                                 <div class="debug">
-                                    Funzioni di produttività premium e condivisione file semplice e sicura
+                                    Funzioni di produttività premium e condivisione file semplice e <br> sicura
                                 </div>
                             </div>
                         </div>
-                        <div class=" debug" debug>
+                        <div class="debug">
                             <a href="" class="button-blue d-flex width-100 debug no-decoration">Prova gratis per 30 giorni</a>
                         </div>
                         <div class="debug">
@@ -141,8 +142,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="business-class border-black debug ">
-                    <p class="d-flex f-center border-black plan debug" id="piani">
+                <div class="business-class border-black debug">
+                    <p class="d-flex f-center border-black plan debug">
                         <i class="fa-solid fa-users"></i> &nbsp; Team
                     </p>
                     <div class="padding-box debug wrap">
@@ -339,32 +340,32 @@
         <section class="debug main-content d-flex just-start">
             <h2 class="debug d-flex">Esegui più operazioni con Dropbox Business</h2>
             <div class="debug d-flex sp-between margin-top-20">
-                <div class="debug width-30">
+                <div class="debug width-30 margin-top-20">
                     <img src="img/business-feature-switching-tools.png" alt="">
                     <h4 class="debug">Passa di meno da uno strumento all'altro</h4>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="debug width-30">
+                <div class="debug width-30 margin-top-20">
                     <img src="img/business-feature-send-files-it.png" alt="">
                     <h4 class="debug">Passa di meno da uno strumento all'altro</h4>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="debug width-30">
+                <div class="debug width-30 margin-top-20">
                     <img src="img/business-feature-coordinate-it.png" alt="">
                     <h4 class="debug">Passa di meno da uno strumento all'altro</h4>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="debug width-30">
+                <div class="debug width-30 margin-top-20">
                     <img src="img/business-feature-integrations-it.png" alt="">
                     <h4 class="debug">Passa di meno da uno strumento all'altro</h4>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="debug width-30">
+                <div class="debug width-30 margin-top-20">
                     <img src="img/business-feature-multi-device.png" alt="">
                     <h4 class="debug">Passa di meno da uno strumento all'altro</h4>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                 </div>
-                <div class="debug width-30">
+                <div class="debug width-30 margin-top-20">
                     <img src="img/business-feature-security.png" alt="">
                     <h4 class="debug">Passa di meno da uno strumento all'altro</h4>
                     <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
@@ -376,7 +377,7 @@
                 Più di 500.000 team utilizzano <br> Dropbox Business
             </h3>
             <a href="#" class="padding-top-butt-20">Scopri di più sui nostri clienti</a>
-        </section> <!--aggiungere margin!!!!!!!!!!-->
+        </section>
         <section class="debug d-flex"> 
             <div class="divisor-3 debug d-flex">
                 <div class="mini-brand debug border-green d-flex f-center bg-green">
@@ -399,7 +400,7 @@
                     "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".
                 </p>
                 <p>Morten Thomsen, Global IT Lead</p>
-            </div> <!--di mezzo grigio-->
+            </div>
             <div class="divisor-3 debug d-flex">
                 <div class="mini-brand debug d-flex f-center bg-red">
                     <img src="img/world_bicycle_relief.svg" alt="brand3" class="svg">
@@ -424,7 +425,7 @@
                     </div>
                     <div class="debug width-50  d-flex f-center">
                         <div class=" debug" debug>
-                            <a href="#" class="btn-white padding-10 no-decoration">Inizia la tua prova gratuita</a>
+                            <a href="#piani" class="btn-white padding-10 no-decoration">Inizia la tua prova gratuita</a>
                         </div>
                     </div>
                 </div>

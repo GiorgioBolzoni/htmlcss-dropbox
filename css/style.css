@@ -78,9 +78,15 @@ section{
 .wrap{
     flex-wrap: wrap;
 }
+.fa-arrow-down{
+    margin-top: 50px;
+}
+.with-70{
+    width: 70%;
+}
 /* header */
 header{
-    height: 100px;
+    height: 80px;
     width: 100%;
     justify-content: space-between;
     position: fixed;
@@ -128,26 +134,26 @@ header{
 /* hero */
 .hero{
     background-color: var(--color-bg-light-blue);
-    margin-top: 100px;
-    height: 600px;
+    margin-top: 80px;
+    height: 800px;
 }
-.hero-box{
+#hero-box{
     justify-content: flex-start;
-    padding-bottom: 100px;
+    height: 100%;
+    margin-top: 0;
+    padding: 50px 0 30px 0;
+}
+#hero-box-main{
 }
 h1{
     font-size: 5em;
-    margin-bottom: 40px;
+    height: 50%;
 }
-/* .box-hero-main{
-    width: 100%;
-    background-color: #61082b;
-    justify-content: space-between;
-} */
-.text-hero{
-    width: 35%;
-    min-width: 200px;
-    font-size: 1.2em;
+#text-hero{
+    width: 32%;
+}
+#btn-hero{
+    margin: 50px 0 30px 0;
 }
 .text-hero > div{
     margin-bottom: 20px;
@@ -158,29 +164,26 @@ h1{
     color: white;
     width: fit-content;
 }
-.fa-arrow-down{
-    margin-top: 50px;
-}
+
 #hero .fa-solid.fa-arrow-down{
     font-size: 3em;
 }
 
 .img-hero-container{
-    width: 65%;
+    width: 68%;  
 }
 .img-hero{
     min-width: 300px;
     justify-content: flex-end;
     display: block;
     position: relative;
-    bottom: -150px;
+    bottom: -50px;
 }
 /* main */
 main{
     background-color: var(--color-primary);
     justify-content: flex-start;
     align-content: flex-start;
-    padding-top: 50px;
 }
 .main-content{
     margin: 100px 20% 100px 20%;
